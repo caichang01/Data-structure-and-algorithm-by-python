@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+'''
+本程序实现了自定义单链表功能
+单链表作为一种链式结构，相对于线性结构（数组和列表）的连续性和可通过下标直接访问，
+'''
+
 
 class Node(object):
     def __init__(self, value=None, next=None):
